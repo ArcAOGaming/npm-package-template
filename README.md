@@ -1,30 +1,51 @@
-# AO-Process-Clients: A Process Oriented AO Library
-[![npm version](https://img.shields.io/npm/v/ao-process-clients)](https://www.npmjs.com/package/ao-process-clients)
-[![npm downloads](https://img.shields.io/npm/dm/ao-process-clients)](https://www.npmjs.com/package/ao-process-clients)
-[![license](https://img.shields.io/npm/l/ao-process-clients)](https://github.com/RandAOLabs/ao-process-clients/blob/main/LICENSE)
-[![issues](https://img.shields.io/github/issues/RandAOLabs/ao-process-clients)](https://github.com/RandAOLabs/ao-process-clients/issues)
-[![GitHub stars](https://img.shields.io/github/stars/RandAOLabs/ao-process-clients?style=social)](https://github.com/RandAOLabs/ao-process-clients)
+# TypeScript NPM Package Template
+[![license](https://img.shields.io/npm/l/your-package-name)](LICENSE)
 
-A modular TypeScript Process client library for AO Process interactions. This library simplifies interactions with various AO processes.
----
-## Install
-```bash
-npm i ao-process-clients
-```
+A template for creating and publishing TypeScript npm packages with automated GitHub workflows.
+
+## Features
+- TypeScript configuration
+- Jest testing setup
+- Automated npm publishing
+- GitHub Actions workflows
+- Environment variable support
+- Comprehensive documentation
+
 ## Getting Started
-```ts
-import { IRandomClient, RandomClient } from "ao-process-clients"
 
-const client: IRandomClient = RandomClient.autoConfiguration()
-client.getOpenRandomRequests("providerId")
+1. Use this template by clicking "Use this template" on GitHub
+2. Clone your new repository
+3. Update the package name in `package.json`
+4. Set up GitHub repository secrets:
+   - `NPM_TOKEN`: Your npm access token for publishing
+   - Add any other secrets your package needs
+
+## Installation
+```bash
+npm install your-package-name
 ```
 
-## Environment
-### Node
-Create a `.env` file:
+## Usage
+```typescript
+import { yourFunction } from "your-package-name";
+
+// Add usage examples here
 ```
-PATH_TO_WALLET="wallet.json"
-```
-And a JWKInterface json file representing a wallet.
-### Browser
-Ensure `globalThis.arweaveWallet` is set to an arweave wallet.
+
+## Development
+See the [development guide](docs/development.md) for detailed instructions on:
+- Setting up your development environment
+- Building the project
+- Running tests
+
+## Environment Variables
+See the [environment documentation](docs/environment.md) for details on configuring environment variables.
+
+## Publishing
+See the [publishing guide](docs/publishing.md) for instructions on:
+- Updating the package version
+- Publishing to npm
+- Verifying the published package
+
+## License
+MIT License - see the [LICENSE](LICENSE) file for details

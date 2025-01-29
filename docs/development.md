@@ -1,9 +1,8 @@
-# Developing AO Process Clients
+# Development Guide
 
 ## Prerequisites
 
  - [Node.js (version >= 22.0.0)](https://nodejs.org/en/download/package-manager)
-
  - [NPM](https://www.npmjs.com/)
 
 ## Installation
@@ -33,4 +32,3 @@ npm run test:unit
 **Run Integration Tests**
 ```bash
 npm run test:integration
-```

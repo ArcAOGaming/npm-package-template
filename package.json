@@ -1,7 +1,7 @@
 {
-  "name": "ao-process-clients",
-  "version": "3.5.18",
-  "description": "A modular TypeScript API client library for AO Process interactions",
+  "name": "your-package-name",
+  "version": "1.0.0",
+  "description": "A TypeScript npm package template with automated publishing",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "files": [
@@ -19,16 +19,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RandAOLabs/ao-process-clients.git"
+    "url": "git+https://github.com/yourusername/your-package-name.git"
   },
-  "author": "RandAO",
+  "author": "",
   "license": "MIT",
   "keywords": [
-    "API",
-    "TypeScript",
-    "client",
-    "AO Process",
-    "modular"
+    "typescript",
+    "npm",
+    "package",
+    "template"
   ],
   "engines": {
     "node": ">=22.0.0"
@@ -41,8 +40,6 @@
     "typescript": "^5.6.3"
   },
   "dependencies": {
-    "@permaweb/aoconnect": "^0.0.59",
-    "arweave": "^1.15.5",
     "tsconfig-paths": "^4.2.0"
   },
   "optionalDependencies": {
